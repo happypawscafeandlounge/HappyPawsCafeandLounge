@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ <style>
+        .collage-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+            gap: 10px; /* Adjust the gap between images */
+        }
+
+        .collage-image {
+            width: 100%;
+            height: auto;
+        }
+		.collage-image2 {
+            width: 100%;
+            height: 150;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Paws Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    
+<!--
+
+Tooplate 2126 Antique Cafe
+
+https://www.tooplate.com/view/2126-antique-cafe
+
+-->
+</head>
+<body>    
+    <!-- Intro -->
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-1.jpg">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Home</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">About Us</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Products</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#partner" class="tm-text-gold py-1 md:py-3 px-4">Partners</a></li>
+					<li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">Contact Us</a></li>
+                </ul>
+            </div>            
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Happy Paws Cafe and Lounge</h1>
+                    <p class="tm-text-gold tm-text-2xl"> <i>"Like the cat that got the cream"</i></p>
+                </div>    
+                <div class="bg-black bg-opacity-70 p-10 mb-5">
+                    <p class="text-white leading-8 text-sm font-light">
+                        Discover the enchanting world of our cat cafe, where the cozy aroma of freshly brewed beverages meets the playful purrs of our delightful feline companions. Nestled in the heart of Batangas, our carefully curated space invites you to unwind, sip on artisanal drinks, and enjoy the unique charm that our resident cats bring to your experience. Join us for a moment of warmth, connection, and the joy that only a cat-filled atmosphere can provide. 
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="#menu" class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="fas fa-coffee mr-3"></i>
+                            <span>Let's explore...</span>                        
+                        </a>
+                    </div>                    
+                </div>                
+            </div>
+        </div>        
+    </div>
+	<div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-9.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div style="display: inline-flex; justify-content: center; align-items: center; margin: 5px; background-color: rgba(255, 255, 255, 0.5);">
+    <img src="img/owner.jpg" alt="Your Image" style="width: 50%; height: 40%; object-fit: contain;">
+    <p style="font-size: 18px; padding: 20px; text-align: justify;">
+        Hi there! I'm  Shiella Mae Aves Carreal, the proud owner and cat enthusiast behind Happy Paws Café and Lounge. 
+        Welcome to our cozy haven for cat lovers, where a cup of coffee comes with a side of purrs and playtime.
+        Growing up, I always had a deep affinity for cats. Their playful antics and comforting purrs brought immense joy to my life. 
+        In 2023, I decided to turn my passion into something more, and that's when Happy Paws Café and Lounge was born. <br> <br>
+        Happy Paws Café and Lounge isn't just a cafe; it's a whisker wonderland. 
+        Our space is carefully designed to provide a serene environment for both humans and cats to coexist harmoniously. 
+        From cozy nooks for napping to interactive play zones, every inch is crafted with love.
+    </p>
+</div>
+                   
+                
+        </div>        
+    </div>
+	<div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/2.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">About our cafe</h2>
+                    <p class="mb-6 text-base leading-8">
+                        Happy Paws Café and Lounge aims to rescue and adapt stray cats. Also, they will promote rescue
+cats that are available for adoption to give them the love and care they deserve. Moreover, this cat café
+also aims to create stress-free, tranquil environments where people and cats can relax next to one another.
+Happy Paws Café and Lounge can help its customers gain new insight, present themselves, and refresh
+and repair their broken souls.<br> <br>In essence, we are fostering a symbiotic relationship between humans and
+cats by exhibiting and teaching the best standards of cat care and facilitating access to animal assisted
+therapy for those suffering from depression and other mental illness. At Happy Paws Café and Lounge, our commitment goes beyond creating a delightful space for cat lovers. We are on a mission to make a positive impact on the lives of stray and rescue cats.
+                  </p>
+                   
+                </div>
+            </div>           
+        </div>        
+    </div>
+	<div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-2.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">About our cafe</h2>
+                    <p class="mb-6 text-base leading-8">
+                         Our cat cafe serves as a haven for these furry friends, offering them a second chance at a loving home.
+
+Our adoption program is at the heart of what we do. We actively work to rescue and rehabilitate stray cats, providing them with the care and attention they deserve. By promoting these rescue cats for adoption, we strive to connect them with compassionate individuals who can offer them a forever home. Every adoption not only transforms the life of a cat but also enriches the lives of those who open their hearts to these wonderful companions.
+<br><br>
+Beyond our dedication to feline welfare, we aspire to create stress-free and tranquil environments. Happy Paws Café and Lounge is designed to be a sanctuary where people and cats can find solace together. We believe in the therapeutic power of the human-animal bond, and our space is carefully curated to facilitate moments of relaxation and joy for both our visitors and our resident cats.
+
+
+                  </p>
+                   
+                </div>
+            </div>           
+        </div>        
+    </div>
+	<div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-8.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">About our cafe</h2>
+                    <p class="mb-6 text-base leading-8">
+                        At Happy Paws Café and Lounge, we take pride in offering a diverse menu to cater to every taste bud. From the comforting warmth of hot drinks, including rich espressos, soothing teas, and decadent hot chocolates, to the refreshing coolness of iced coffees, teas, and chilled fruit blends, we have a beverage for every mood and season.
+<br><br>
+For those with a sweet tooth, our menu boasts a tempting selection of desserts and pastries. Indulge in scrumptious cakes, cookies, flaky pastries, and creamy delights, each crafted to satisfy your cravings and elevate your culinary experience.
+
+                  </p>
+                   
+                </div>
+            </div>           
+        </div>        
+    </div>
+	<div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-10.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">HERE ARE SOME PICTURES OF OUR CAFE</h2>
+                    <div class="collage-container">
+    <img src="img/cafe-1.jpg" alt="Image 1" class="collage-image">
+    <img src="img/cafe-2.jpg" alt="Image 2" class="collage-image">
+    <img src="img/cafe-3.jpg" alt="Image 3" class="collage-image">
+	<img src="img/cafe-4.jpg" alt="Image 1" class="collage-image">
+    <img src="img/cafe-5.jpg" alt="Image 2" class="collage-image">
+    <img src="img/cafe-6.jpg" alt="Image 3" class="collage-image">
+	<img src="img/cafe-7.jpg" alt="Image 1" class="collage-image">
+    <img src="img/cafe-8.jpg" alt="Image 2" class="collage-image">
+    <img src="img/cafe-9.jpg" alt="Image 3" class="collage-image">
+   
+</div>
+                  </p>
+                   
+                </div>
+            </div>           
+        </div>        
+    </div>
+
+    <!-- Cafe Menu -->
+    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-7.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">HOT DRINKS</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-1.jpg" alt="Image" class="rounded-md" width="160">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Caffe Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short &nbsp; Php 110</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Php 135</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-2.jpg" class="rounded-md" width="160">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"> Peppermint Hot Chocolate</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short&nbsp;&nbsp;   Php 125</div>
+                            <div class="text-white text-md sm:text-lg font-light"> Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;							Php 150</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-3.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte </h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short&nbsp;&nbsp;   Php 110</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 135</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-item-4.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Short &nbsp;  Php 115 &nbsp;&nbsp;&nbsp;Tall &nbsp; Php 130</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Matcha Latte</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short &nbsp; Php 110</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 120</div>
+                        </div>
+                        <img src="img/menu-3.jpg" width="160" alt="Image" class="rounded-md">                   
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Espresso Macchiato</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short&nbsp; Php 110</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 120 </div>
+                        </div>
+                        <img src="img/menu-4.jpg" width="160" alt="Image" class="rounded-md">                    
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short &nbsp; Php 120</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 130</div>
+                        </div>   
+                        <img src="img/menu-5.jpg" width="160" alt="Image" class="rounded-md">                 
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Black Tea</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Short &nbsp; Php 90 &nbsp;&nbsp; Tall &nbsp;Php 100</div>
+                        </div> 
+                        <img src="img/menu-6.jpg" width="160" alt="Image" class="rounded-md">                   
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+	<div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-3.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">COLD DRINKS</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-7.jpg" alt="Image" class="rounded-md" width="160">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Spanish Latte</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short &nbsp;&nbsp;Php 110</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 135</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-8.jpg"class="rounded-md" width="160">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"> Iced cafe Mocha</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short&nbsp;&nbsp; Php 95 </div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 120</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-9.jpg" width="160" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Biscoff Milkshake</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short&nbsp; Php 150</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 165</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/menu-11.jpg" width="160"alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Americano</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Short &nbsp; Php 120 </div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 130</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Sparkling Strawberry Lemonade</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short&nbsp; Php 115</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp; Php 135</div>
+                        </div>
+                        <img src="img/menu-10.jpg" width="160" alt="Image" class="rounded-md">                   
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Milktea</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short &nbsp;Php 95</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall&nbsp;&nbsp;&nbsp;Php 110 </div>
+                        </div>
+                        <img src="img/menu-12.jpg" width="160"alt="Image" class="rounded-md">                    
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Short&nbsp; Php 120</div>
+                            <div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp; Php 130</div>
+                        </div>   
+                        <img src="img/menu-13.jpg" alt="Image" class="rounded-md">                 
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Cherry Limeade</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Short&nbsp; Php 115 </div>
+							<div class="text-white text-md sm:text-lg font-light">Tall &nbsp;&nbsp; Php 125 </div>
+                        </div> 
+                        <img src="img/menu-14.jpg" width="160"alt="Image" class="rounded-md">                   
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+	
+	<div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-4.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">PASTRIES AND DESSERTS</h2>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/pastry-1.jpg" alt="Image" class="rounded-md" width="160">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Green Tea Cake</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Whole &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 1580</div>
+                            <div class="text-white text-md sm:text-lg font-light">Per Slice &nbsp;&nbsp;&nbsp;&nbsp;Php 230</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/pastry-2.jpg"class="rounded-md" width="160">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"> Mini Donuts</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Dozen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Php 200 </div>
+                            <div class="text-white text-md sm:text-lg font-light">Per Piece &nbsp;&nbsp;&nbsp; Php 20</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/pastry-3.jpg" width="160" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Cupcakes</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Box (9pcs) &nbsp; Php 730</div>
+                            <div class="text-white text-md sm:text-lg font-light">Per Piece &nbsp;&nbsp;&nbsp; Php 85</div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/pastry-4.jpg" width="160"alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Cookies</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Dozen &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Php 400 </div>
+                            <div class="text-white text-md sm:text-lg font-light">Per Piece &nbsp; Php 35</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Croissants</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Box (9pcs)&nbsp; Php 1350</div>
+                            <div class="text-white text-md sm:text-lg font-light">Per Piece &nbsp;&nbsp; Php 155</div>
+                        </div>
+                        <img src="img/pastry-5.jpg"width="160" alt="Image" class="rounded-md">                   
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Churros with Dip of your choice (Chocolate, Biscoff, Vanilla)</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Php 120</div>
+                        </div>
+                        <img src="img/pastry-6.jpg" width="160"alt="Image" class="rounded-md">                    
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Panna Cotta</h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Php 105</div>
+                            
+                        </div>   
+                        <img src="img/pastry-7.jpg" width="160" alt="Image" class="rounded-md">                 
+                    </div>
+                    <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
+                        <div class="text-right mr-6">
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Ice cream (Chocolate, Vanilla, Blueberry, Strawberry, etc.)</h3>
+                            <div class="text-white text-md sm:text-lg font-light"> Php 70 </div>
+							
+                        </div> 
+                        <img src="img/pastry-8.jpg" width="160"alt="Image" class="rounded-md">                   
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+	<div id="partner" class="parallax-window" data-parallax="scroll" data-image-src="img/bg-5.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4">
+                <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                    <h2 class="mb-6 tm-text-green text-4xl font-medium">Our Partners</h2>
+                    <p class="mb-6 text-base leading-8">
+                        Happy Paws Café and Lounge has delivery services on Food
+Panda and Grab. The delivery services will only accept orders
+from Padre Garcia and nearby municipality such as Rosario
+and only Pinagkawitan in Lipa and others. The café will assure
+its customers that the products are in good condition and safe.
+Furthermore, the business will use modern technology such as
+social media to advertise and market the café.
+                  </p>
+				  <div style="width; 30% height= 120;">
+				  <img src="img/partner-1.jpg" alt="Image 2" class="collage-image2">
+    <img src="img/partner-2.jpg" alt="Image 3" class="collage-image">
+	</div>
+                   
+                </div>
+                <a href="#contact" class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                    <i class="far fa-comments mr-4"></i>
+                    Contact
+                </a>
+            </div>           
+        </div>        
+    </div>
+    <div id="contact" class="parallax-window relative" data-parallax="scroll" data-image-src="img/bg-6.jpg">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Contact Us</h2>
+                    <p class="mb-6 text-lg leading-8">
+We value your feedback and inquiries. Please feel free to reach out to us using the contact form below, and our dedicated team will promptly assist you.
+                    </p>
+                    <p class="mb-10 text-lg">
+                        <span class="block mb-2">Tel: <a href="tel:0100200340" class="hover:text-yellow-600 transition">09367836803</a></span>
+                        <span class="block">Email: <a href="mailto:info@company.com" class="hover:text-yellow-600 transition">happypawsandcafelounge@gmail.com</a></span> 
+Location: Barangay San Miguel,  Padre Garcia, Batangas 						
+                    </p>
+                    <div class="text-center">
+                        <a href="https://www.google.com/maps" class="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-green">
+                            <i class="fas fa-map-marked-alt mr-8"></i>
+                            Open Maps
+                        </a>
+                    </div>                    
+                </div>
+                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
+                    <form action="" method="POST" class="text-lg">
+                        <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Name" required="" />
+                        <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
+                        <textarea rows="6" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required=""></textarea>
+                        <div class="text-right">
+                            <button type="submit" class="text-white hover:text-yellow-500 transition">Send it</button>
+                        </div>                        
+                      </form>
+                </div>
+            </div>
+            <footer class="absolute bottom-0 left-0 w-full">
+                <div class="text-white container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
+                    <span>Copyright 2023 Happy Paws Cafe and Lounge. All rights reserved.</span>
+                    
+                </div>                
+            </footer>
+        </div>        
+    </div>    
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
